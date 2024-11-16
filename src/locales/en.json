@@ -1,0 +1,16 @@
+{
+  "menu": {
+    "about": "Over mij",
+    "cv": "CV",
+    "skills": "Vaardigheden",
+    "contact": "Contact"
+  },
+  "titlePage": {
+    "welcome": "Welkom op mijn website",
+    "intro": "Dit is mijn persoonlijke website waar je meer kunt leren over mijn werk en vaardigheden."
+  },
+  "aboutMe": {
+    "heading": "Over mij",
+    "description": "Ik ben een gepassioneerde ontwikkelaar met ervaring in webtechnologieën en het bouwen van op maat gemaakte oplossingen."
+  }
+}
