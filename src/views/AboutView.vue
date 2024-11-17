@@ -1,14 +1,11 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-    <ButtonBack></ButtonBack>
-      </div>
-      <div class="col-md-12">
-    <h1>This is an about page</h1>
-      </div>
+    <div class="d-flex justify-content-center">
     </div>
-  </div>
+    <div class="d-flex justify-content-center align-items-center">
+      <h1>{{ $t('aboutMe.heading') }}</h1>
+      <p>{{ $t('aboutMe.description') }}</p>
+    </div>
+
 </template>
 <script>
 import ButtonBack from '@/components/ButtonBack.vue'
@@ -16,6 +13,10 @@ export default {
   components: { ButtonBack }
 
 }
-</script>/
-<style>
+</script>
+<style scoped>
+h1, p{
+  text-align: center;
+  margin: 30px;
+}
 </style>

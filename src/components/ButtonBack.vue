@@ -4,7 +4,7 @@
       fill="red"
     height="50px"
     width="75px"
-    id="Capa_1"
+    id="Arrow_back"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 26.676 26.676"
     xml:space="preserve"
@@ -37,7 +37,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .back-button{
   width: 150px;
   height: 50px;
@@ -48,6 +48,7 @@ export default {
   align-items: center;
   color: red;
   font-weight: bold;
+  justify-content: start !important;
 }
 
 .back-button svg {

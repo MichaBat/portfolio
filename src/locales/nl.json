@@ -1,9 +1,12 @@
 {
   "menu": {
     "about": "Over mij",
-    "cv": "CV",
+    "work": "Werkervaring",
+    "internship": "Stages",
+    "courses": "Cursussen",
     "skills": "Vaardigheden",
-    "contact": "Contact"
+    "contact": "Contact",
+    "cv" : "Curriculum Vitae"
   },
   "titlePage": {
     "welcome": "Welkom op mijn website",
@@ -12,5 +15,87 @@
   "aboutMe": {
     "heading": "Over mij",
     "description": "Ik ben een gepassioneerde ontwikkelaar met ervaring in webtechnologieën en het bouwen van op maat gemaakte oplossingen."
+  },
+  "personal_information": {
+    "title": "Persoonlijke Informatie",
+    "label": {
+      "name": "Naam",
+      "birthday" : "Geboortedatum",
+      "gender" : "Geslacht",
+      "phone_number": "Telefoonnummer",
+      "email": "E-mailadres"
+    },
+    "address": {
+      "title": "Adres",
+      "street_name": "1e Tuindwarsstraat",
+      "number" : "5",
+      "postal_code": "1815TH",
+      "city": "Alkmaar"
+    },
+    "first_name": "Micha",
+    "last_name": "Batelaan",
+    "birthday": "08-05-2002",
+    "gender": "Man",
+    "phone_number": "06-37578141",
+    "email": "michabatelaan@gmail.com"
+  },
+  "location": "Locatie",
+  "position": "Positie",
+  "dates": "Data",
+  "to" : "tot",
+  "course": "Opleiding",
+  "studies" : "Studies",
+  "workExperience" : "Werkervaring",
+  "internship" : "Stages",
+  "skills": "Vaardigheden",
+  "skills_details": {
+    "personal_skills": [
+      {
+        "name": "Communicatie",
+        "description": "Het effectief overbrengen van ideeën en informatie in zowel schriftelijke als mondelinge vorm."
+      },
+      {
+        "name": "Teamwerk",
+        "description": "Samenwerken en bijdragen binnen diverse groepen om gemeenschappelijke doelen te bereiken."
+      },
+      {
+        "name": "Probleemoplossend vermogen",
+        "description": "Analyseren van problemen, identificeren van oplossingen en implementeren van effectieve strategieën."
+      },
+      {
+        "name": "Aanpassingsvermogen",
+        "description": "Flexibiliteit om zich aan te passen aan veranderende situaties en snel nieuwe vaardigheden te leren."
+      },
+      {
+        "name": "Tijdmanagement",
+        "description": "Efficiënt organiseren en prioriteren van taken om deadlines te halen."
+      }
+    ],
+    "technical_skills": [
+      {
+        "name": "Programmeren",
+        "description": "Beheersing van programmeertalen zoals Python, JavaScript, Java en C#."
+      },
+      {
+        "name": "Data-analyse",
+        "description": "Expertise in het analyseren en visualiseren van gegevens met tools zoals Excel, SQL of PowerBI."
+      },
+      {
+        "name": "Webontwikkeling",
+        "description": "Ervaring in het bouwen en onderhouden van websites met HTML, CSS en frameworks zoals Vue en React."
+      },
+      {
+        "name": "Cloud Computing",
+        "description": "Kennis van cloudplatformen zoals Azure of Google Cloud."
+      },
+      {
+        "name": "DevOps",
+        "description": "Bekendheid met CI/CD-pijplijnen en tools zoals Docker."
+      },
+      {
+        "name": "Scrum",
+        "description": "Kennis van Agile Softwareontwikkelingsmethodes zoals SCRUM."
+      }
+    ]
   }
 }

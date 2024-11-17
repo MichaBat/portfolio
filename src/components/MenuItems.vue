@@ -6,13 +6,13 @@
           <RouterLink to="/">Home</RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="/about">About</RouterLink>
+          <RouterLink to="/about">{{ $t('menu.about') }}</RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="/skills">skills</RouterLink>
+          <RouterLink to="/cv">{{ $t('menu.cv') }}</RouterLink>
         </li>
         <li class="nav-item">
-          <RouterLink to="/cv">cv</RouterLink>
+          <RouterLink to="/contact">{{ $t('menu.contact') }}</RouterLink>
         </li>
       </ul>
     </div>

@@ -1,0 +1,23 @@
+[
+  {
+    "companyName": "Dekamarkt",
+    "position": "Vakkenvuller",
+    "location": "Sint Pancras",
+    "startDate": "September 2016",
+    "endDate": "September 2018"
+  },
+  {
+    "companyName": "Noorwest Ziekenhuisgroep",
+    "position": "Medewerker ICT Servicedesk",
+    "location": "Alkmaar",
+    "startDate": "Juli 2020",
+    "endDate": "Augustus 2020"
+  },
+  {
+    "companyName": "Digiwyse",
+    "position": "Inzetmedewerker ICT",
+    "location": "Haarlem",
+    "startDate": "Augustus 2023",
+    "endDate": "Oktober 2023"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "schoolName": "Regio College",
+    "course": "MBO(4) ICT Beheer",
+    "location": "Zaandam",
+    "startDate": "September 2019",
+    "endDate": "September 2021"
+  },
+  {
+    "schoolName": "Inholland",
+    "course": "HBO Propedeusejaar Business IT & Management",
+    "location": "Alkmaar",
+    "startDate": "September 2021",
+    "endDate": "Juli 2021"
+  },
+  {
+    "schoolName": "Hogeschool van Amsterdam",
+    "course": "HBO Software Engineering",
+    "location": "Amsterdam",
+    "startDate": "September 2024",
+    "endDate": "heden"
+  }
+]

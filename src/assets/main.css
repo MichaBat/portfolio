@@ -1,10 +1,16 @@
 @import './base.css';
+
+* {
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
 body{
   background-color: #c66f6f;
 }
+
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
+  margin: auto;
   padding: 2rem;
   font-weight: normal;
   background: white;
@@ -16,6 +22,11 @@ a,
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
   padding: 3px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 @media (hover: hover) {
@@ -34,6 +45,5 @@ a,
     margin: 2rem;
     padding: 2rem;
     width: 100vw;
-    height: 100vh;
   }
 }
