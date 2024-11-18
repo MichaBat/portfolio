@@ -11,9 +11,11 @@
         <li class="nav-item">
           <RouterLink to="/cv">{{ $t('menu.cv') }}</RouterLink>
         </li>
+        <!--
         <li class="nav-item">
           <RouterLink to="/contact">{{ $t('menu.contact') }}</RouterLink>
         </li>
+        -->
       </ul>
     </div>
   </nav>
@@ -23,9 +25,9 @@
 import { RouterLink } from 'vue-router'
 
 export default {
-  name: "MenuComponent",
-  components: { RouterLink }
-};
+  name: 'MenuComponent',
+  components: { RouterLink },
+}
 </script>
 
 <style scoped>

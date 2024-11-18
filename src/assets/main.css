@@ -5,15 +5,15 @@
   box-sizing: border-box;
 }
 
-body{
-  background-color: #c66f6f;
+body {
+  background-color: var(--color-background-body);
 }
 
 #app {
   margin: auto;
   padding: 2rem;
   font-weight: normal;
-  background: white;
+  background: var(--color-background);
 }
 
 a,
@@ -24,9 +24,27 @@ a,
   padding: 3px;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  color: var(--color-heading);
+}
+
+p,
+strong,
+span {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--color-text);
+}
+
+.bordered {
+  border: 1px solid hsla(160, 100%, 37%, 1);
+  padding: 20px;
 }
 
 @media (hover: hover) {
@@ -46,4 +64,15 @@ h1,h2,h3,h4,h5,h6 {
     padding: 2rem;
     width: 100vw;
   }
+}
+.card {
+  max-width: var(--card-width);
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #e1e1e1;
+}
+
+strong {
+  font-weight: bold;
+  margin-right: 10px;
 }

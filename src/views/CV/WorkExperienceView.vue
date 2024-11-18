@@ -13,19 +13,19 @@
 </template>
 
 <script>
-import { ref } from 'vue';
-import WorkExperienceCard from '@/components/cards/WorkExperienceCard.vue';
-import workExperiences from '@/assets/workExperience.json';
+import { ref } from 'vue'
+import WorkExperienceCard from '@/components/cards/WorkExperienceCard.vue'
+import workExperiences from '@/assets/workExperience.json'
 
 export default {
   components: {
-    WorkExperienceCard
+    WorkExperienceCard,
   },
   setup() {
-    const workExperiencesRef = ref(workExperiences);
+    const workExperiencesRef = ref(workExperiences)
     return {
-      workExperiences: workExperiencesRef
-    };
-  }
+      workExperiences: workExperiencesRef,
+    }
+  },
 }
 </script>

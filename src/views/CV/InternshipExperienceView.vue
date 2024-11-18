@@ -13,19 +13,19 @@
 </template>
 
 <script>
-import { ref } from 'vue';
+import { ref } from 'vue'
 import internshipExperienceCard from '@/components/cards/InternshipExperienceCard.vue'
 import internshipExperiences from '@/assets/InternshipExperience.json'
 
 export default {
   components: {
-    internshipExperienceCard
+    internshipExperienceCard,
   },
   setup() {
-    const internshipExperienceCardRef = ref(internshipExperiences);
+    const internshipExperienceCardRef = ref(internshipExperiences)
     return {
-      InternshipExperiences: internshipExperienceCardRef
-    };
-  }
+      InternshipExperiences: internshipExperienceCardRef,
+    }
+  },
 }
 </script>

@@ -8,7 +8,6 @@
 <script>
 export default {
   name: 'TitlePage',
-};
+}
 </script>
-<style scoped>
-</style>
+<style scoped></style>

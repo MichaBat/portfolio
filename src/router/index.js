@@ -1,18 +1,20 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import skillsView from '../views/SkillsView.vue'
-import cvView from '../views/CVView.vue'
-import workView from '../views/WorkExperienceView.vue'
-
+import cvView from '../views/CV/CVView.vue'
+import ContactView from '@/views/ContactView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: '/', name: 'home', component: HomeView, },
-    { path: '/about', name: 'about', component: () => import('../views/AboutView.vue'), },
-    { path: '/skills', name: 'skills', component: skillsView, },
-    { path: '/cv', name: 'cv', component: cvView },
-    { path: '/work', name: 'work experience', component: workView },
+    { path: '/', name: 'home', component: HomeView, meta: { title: 'Home' } },
+    {
+      path: '/about',
+      name: 'about',
+      component: () => import('../views/AboutView.vue'),
+      meta: { title: 'About Us' },
+    },
+    { path: '/cv', name: 'cv', component: cvView, meta: { title: 'Curriculum Vitae' } },
+    { path: '/contact', name: 'Contact', component: ContactView, meta: { title: 'Contact' } },
   ],
 })
 

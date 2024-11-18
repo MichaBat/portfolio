@@ -24,37 +24,26 @@ export default {
   props: {
     schoolName: {
       type: String,
-      required: true
+      required: true,
     },
     course: {
       type: String,
-      required: true
+      required: true,
     },
     location: {
       type: String,
-      required: true
+      required: true,
     },
     startDate: {
       type: String,
-      required: true
+      required: true,
     },
     endDate: {
       type: String,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>
 
-<style scoped>
-.card {
-  max-width: var(--card-width);
-  margin: 20px auto;
-  padding: 15px;
-  border: 1px solid #e1e1e1;
-}
-strong{
-  font-weight: bold;
-  margin-right: 10px;
-}
-</style>
+<style scoped></style>

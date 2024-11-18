@@ -1,6 +1,4 @@
-<script setup>
-
-</script>
+<script setup></script>
 <template>
   <h1>{{ $t('personal_information.title') }}</h1>
   <div class="flex-d bordered">
@@ -8,7 +6,10 @@
       <div>
         <div class="info-row">
           <strong class="label">{{ $t('personal_information.label.name') }}:</strong>
-          <span>{{ $t('personal_information.first_name') }} {{ $t('personal_information.last_name') }}</span>
+          <span
+            >{{ $t('personal_information.first_name') }}
+            {{ $t('personal_information.last_name') }}</span
+          >
         </div>
         <div class="info-row">
           <strong class="label">{{ $t('personal_information.label.birthday') }}:</strong>
@@ -36,18 +37,14 @@
   </div>
 </template>
 <style scoped>
-p, h1{
+p,
+h1 {
   text-align: center;
   text-indent: -50px;
 }
-strong{
+strong {
   font-weight: bold;
 }
-.bordered{
-  border: 1px solid #ddd;
-  padding: 20px 20px;
-}
-
 
 .flex-row {
   display: flex;
@@ -55,7 +52,6 @@ strong{
   align-items: center;
   margin-bottom: 1rem;
 }
-
 
 .info-row {
   display: flex;
@@ -73,5 +69,4 @@ span {
   flex: 1;
   text-align: left;
 }
-
 </style>

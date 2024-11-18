@@ -14,7 +14,6 @@ import ButtonBack from '@/components/ButtonBack.vue'
   </div>
 </template>
 
-
 <style scoped>
 /*.container{
   display: grid;

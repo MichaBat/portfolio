@@ -1,10 +1,9 @@
 <script setup>
-
 import PersonalDetails from '@/components/PersonalInformation.vue'
-import WorkExperienceView from '@/views/WorkExperienceView.vue'
-import StudyExperienceView from '@/views/StudyExperienceView.vue'
-import InternshipExperienceView from '@/views/InternshipExperienceView.vue'
-import SkillsView from '@/views/SkillsView.vue'
+import WorkExperienceView from '@/views/CV/WorkExperienceView.vue'
+import StudyExperienceView from '@/views/CV/StudyExperienceView.vue'
+import InternshipExperienceView from '@/views/CV/InternshipExperienceView.vue'
+import SkillsView from '@/views/CV/SkillsView.vue'
 </script>
 
 <template>
@@ -12,21 +11,21 @@ import SkillsView from '@/views/SkillsView.vue'
     <div class="row">
       <div class="col-md-12">
         <PersonalDetails></PersonalDetails>
-        <h1>{{$t('studies')}}</h1>
+        <h1>{{ $t('studies') }}</h1>
         <div class="bordered">
           <StudyExperienceView></StudyExperienceView>
         </div>
-        <h1>{{$t('workExperience')}}</h1>
+        <h1>{{ $t('workExperience') }}</h1>
         <div class="bordered">
           <WorkExperienceView></WorkExperienceView>
         </div>
-        <h1>{{$t('internship')}}</h1>
+        <h1>{{ $t('internship') }}</h1>
         <div class="bordered">
-          <InternshipExperienceView>  </InternshipExperienceView>
+          <InternshipExperienceView> </InternshipExperienceView>
         </div>
-        <h1>{{$t('skills')}}</h1>
+        <h1>{{ $t('skills') }}</h1>
         <div class="bordered">
-          <SkillsView>  </SkillsView>
+          <SkillsView> </SkillsView>
         </div>
       </div>
     </div>
@@ -34,19 +33,17 @@ import SkillsView from '@/views/SkillsView.vue'
 </template>
 
 <style scoped>
-.bordered{
-  border: 1px solid #ddd;
+.bordered {
   margin-bottom: 50px;
 }
-p, h1{
+p,
+h1 {
   text-align: center;
 }
 
-@media (max-width: 601px){
+@media (max-width: 601px) {
   .bordered {
     border: none;
   }
 }
-
-
 </style>

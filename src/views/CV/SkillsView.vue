@@ -10,28 +10,28 @@
         <SkillCard :skill="skill" />
       </div>
     </div>
-  </div>  
+  </div>
 </template>
 
 <script>
-import SkillCard from '@/components/cards/SkillCard.vue';
-import skillsData from '@/locales/nl.json';
+import SkillCard from '@/components/cards/SkillCard.vue'
+import skillsData from '@/assets/skills.json'
 
 export default {
   components: {
-    SkillCard
+    SkillCard,
   },
   data() {
     return {
       personalSkills: [],
-      technicalSkills: []
-    };
+      technicalSkills: [],
+    }
   },
   created() {
-    // Load the data from the JSON file
-    this.personalSkills = skillsData.personalSkills;
-    this.technicalSkills = skillsData.technicalSkills;
-  }
+    // Correctly load the data from the JSON file
+    this.personalSkills = skillsData.skills_details.personal_skills
+    this.technicalSkills = skillsData.skills_details.technical_skills
+  },
 }
 </script>
 

@@ -13,19 +13,19 @@
 </template>
 
 <script>
-import { ref } from 'vue';
+import { ref } from 'vue'
 import StudyExperienceCard from '@/components/cards/StudyExperienceCard.vue'
 import studyExperiences from '@/assets/StudyExperience.json'
 
 export default {
   components: {
-    StudyExperienceCard
+    StudyExperienceCard,
   },
   setup() {
-    const studyExperiencesRef = ref(studyExperiences);
+    const studyExperiencesRef = ref(studyExperiences)
     return {
-      studyExperiences: studyExperiencesRef
-    };
-  }
+      studyExperiences: studyExperiencesRef,
+    }
+  },
 }
 </script>

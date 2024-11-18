@@ -6,6 +6,7 @@ import TitlePage from '@/components/TitleHeader.vue'
 <template>
   <main>
     <TitlePage></TitlePage>
+    <br />
     <Menu />
   </main>
 </template>
