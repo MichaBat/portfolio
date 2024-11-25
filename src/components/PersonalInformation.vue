@@ -36,6 +36,11 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  name: 'PersonalInformation'
+}
+</script>
 <style scoped>
 p,
 h1 {

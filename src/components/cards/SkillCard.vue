@@ -35,7 +35,4 @@ export default {
   font-size: 1.2em;
   font-weight: bold;
 }
-.card-text {
-  color: #555;
-}
 </style>

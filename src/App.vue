@@ -8,15 +8,27 @@ import ButtonBack from '@/components/ButtonBack.vue'
     <div class="row">
       <div class="col text-center">
         <ButtonBack v-if="$route.path !== '/'"></ButtonBack>
-        <RouterView></RouterView>
+        <router-view v-slot="{ Component }">
+          <transition name="fade">
+            <component :is="Component" />
+          </transition>
+        </router-view>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-/*.container{
-  display: grid;
-  justify-items: center;
-}*/
+.fade-enter-active{
+  transition: opacity 1.25s ease;
+}
+
+.fade-leave-active {
+  opacity: 0;
+}
+
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+
 </style>

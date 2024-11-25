@@ -1,20 +1,22 @@
 <template>
-  <div class="d-flex justify-content-center"></div>
+  <div class="container">
   <div class="d-flex justify-content-center align-items-center">
     <h1>{{ $t('aboutMe.heading') }}</h1>
-    <p>{{ $t('aboutMe.description') }}</p>
+    <div class="w-100 align-items-center justify-content-center">
+      <p class="text">{{ $t('aboutMe.description') }}</p>
+    </div>
+  </div>
   </div>
 </template>
 <script>
-import ButtonBack from '@/components/ButtonBack.vue'
-export default {
-  components: { ButtonBack },
-}
 </script>
 <style scoped>
 h1,
 p {
   text-align: center;
   margin: 30px;
+}
+.text{
+  text-align: center;
 }
 </style>

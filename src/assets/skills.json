@@ -48,5 +48,12 @@
         "description": "Kennis van Agile Softwareontwikkelingsmethodes zoals SCRUM."
       }
     ]
-  }
+  },
+  "languages": [{
+    "name" : "Nederlands",
+    "description" : " Moedertaal"
+  },{
+    "name" : "Engels",
+    "description" : "Vloeiend"
+  }]
 }
