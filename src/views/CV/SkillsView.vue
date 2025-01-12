@@ -12,10 +12,10 @@
     </div>
   </div>
 </template>
-
 <script>
 import SkillCard from '@/components/cards/SkillCard.vue'
-import skillsData from '@/assets/skills.json'
+import enSkills from '@/locales/en.json'
+import nlSkills from '@/locales/nl.json'
 
 export default {
   components: {
@@ -27,10 +27,34 @@ export default {
       technicalSkills: [],
     }
   },
+  computed: {
+    currentLocale() {
+      return this.$i18n?.locale || 'nl'
+    },
+    skillsData() {
+      const skillsByLocale = {
+        en: enSkills,
+        nl: nlSkills,
+      }
+      return skillsByLocale[this.currentLocale] || enSkills
+    },
+  },
+  watch: {
+    currentLocale: {
+      handler() {
+        this.loadSkills()
+      },
+      immediate: true,
+    },
+  },
+  methods: {
+    loadSkills() {
+      this.personalSkills = this.skillsData.skills_details.personal_skills || []
+      this.technicalSkills = this.skillsData.skills_details.technical_skills || []
+    },
+  },
   created() {
-    // Correctly load the data from the JSON file
-    this.personalSkills = skillsData.skills_details.personal_skills
-    this.technicalSkills = skillsData.skills_details.technical_skills
+    this.loadSkills()
   },
 }
 </script>

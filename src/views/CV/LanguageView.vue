@@ -1,7 +1,7 @@
 <template>
   <div class="skills-container">
     <div class="row">
-      <div class="col-md-4" v-for="(language, index) in language" :key="'language' + index">
+      <div class="col-md-4" v-for="(language, index) in language" :key="'language-' + index">
         <SkillCard :skill="language" />
       </div>
     </div>
@@ -10,7 +10,10 @@
 
 <script>
 import SkillCard from '@/components/cards/SkillCard.vue'
-import skillsData from '@/assets/skills.json'
+
+// Import locales
+import enSkills from '@/locales/en.json'
+import nlSkills from '@/locales/nl.json'
 
 export default {
   components: {
@@ -21,8 +24,37 @@ export default {
       language: [],
     }
   },
+  computed: {
+    // Dynamically fetch the current locale
+    currentLocale() {
+      // Replace with your actual logic for determining locale (e.g., from a store, router, or global state)
+      return this.$i18n?.locale || 'en' // Default to 'en'
+    },
+    skillsData() {
+      // Map locale to the corresponding skills file
+      const skillsByLocale = {
+        en: enSkills,
+        nl: nlSkills,
+      }
+      return skillsByLocale[this.currentLocale] || enSkills // Fallback to 'en'
+    },
+  },
+  watch: {
+    // Update language list when locale changes
+    currentLocale: {
+      handler() {
+        this.loadLanguages()
+      },
+      immediate: true,
+    },
+  },
+  methods: {
+    loadLanguages() {
+      this.language = this.skillsData.languages || []
+    },
+  },
   created() {
-    this.language = skillsData.languages
+    this.loadLanguages()
   },
 }
 </script>

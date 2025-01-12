@@ -39,6 +39,66 @@
     "phone_number": "06-37578141",
     "email": "michabatelaan@gmail.com"
   },
+  "skills_details": {
+    "personal_skills": [
+      {
+        "name": "Communication",
+        "description": "Effectively conveying ideas and information in both written and verbal forms."
+      },
+      {
+        "name": "Teamwork",
+        "description": "Collaborating and contributing within diverse groups to achieve common goals."
+      },
+      {
+        "name": "Problem-Solving",
+        "description": "Analysing problems, identifying solutions, and implementing effective strategies."
+      },
+      {
+        "name": "Adaptability",
+        "description": "Flexibility to adapt to changing situations and quickly learn new skills."
+      },
+      {
+        "name": "Time Management",
+        "description": "Efficiently organising and prioritising tasks to meet deadlines."
+      }
+    ],
+    "technical_skills": [
+      {
+        "name": "Programming",
+        "description": "Proficiency in programming languages such as Python, JavaScript, Java, and C#."
+      },
+      {
+        "name": "Data Analysis",
+        "description": "Expertise in analysing and visualising data using tools like Excel, SQL, or PowerBI."
+      },
+      {
+        "name": "Web Development",
+        "description": "Experience in building and maintaining websites using HTML, CSS, and frameworks like Vue and React."
+      },
+      {
+        "name": "Cloud Computing",
+        "description": "Knowledge of cloud platforms like Azure or Google Cloud."
+      },
+      {
+        "name": "DevOps",
+        "description": "Familiarity with CI/CD pipelines and tools like Docker."
+      },
+      {
+        "name": "Scrum",
+        "description": "Knowledge of Agile software development methods like SCRUM."
+      }
+    ]
+  },
+  "languages": [
+    {
+      "name": "Dutch",
+      "description": "Native"
+    },
+    {
+      "name": "English",
+      "description": "Fluent"
+    }
+  ],
   "location": "Location",
   "position": "Position",
   "dates": "Dates",
@@ -49,5 +109,5 @@
   "internship": "Internships",
   "skills": "Skills",
   "language": "Languages",
-  "toggleLanguage": "Switch to Dutch"
+  "toggleLanguage": "Wissel naar Nederlands"
 }
