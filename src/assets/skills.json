@@ -49,11 +49,14 @@
       }
     ]
   },
-  "languages": [{
-    "name" : "Nederlands",
-    "description" : " Moedertaal"
-  },{
-    "name" : "Engels",
-    "description" : "Vloeiend"
-  }]
+  "languages": [
+    {
+      "name": "Nederlands",
+      "description": " Moedertaal"
+    },
+    {
+      "name": "Engels",
+      "description": "Vloeiend"
+    }
+  ]
 }

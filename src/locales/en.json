@@ -1,16 +1,53 @@
 {
   "menu": {
-    "about": "Over mij",
-    "cv": "CV",
-    "skills": "Vaardigheden",
-    "contact": "Contact"
+    "about": "About Me",
+    "work": "Work Experience",
+    "internship": "Internships",
+    "courses": "Courses",
+    "skills": "Skills",
+    "contact": "Contact",
+    "cv": "Curriculum Vitae"
   },
   "titlePage": {
-    "welcome": "Welkom op mijn website",
-    "intro": "Dit is mijn persoonlijke website waar je meer kunt leren over mijn werk en vaardigheden."
+    "welcome": "Welcome to Micha Batelaan's Portfolio",
+    "intro": "This is my personal website where you can learn more about my experiences and skills."
   },
   "aboutMe": {
-    "heading": "Over mij",
-    "description": "Ik ben een gepassioneerde ontwikkelaar met ervaring in webtechnologieën en het bouwen van op maat gemaakte oplossingen."
-  }
+    "heading": "About Me",
+    "description": "My name is Micha Batelaan, and I am an enthusiastic Software Engineering student at the Amsterdam University of Applied Sciences.<br> With a passion for technology and problem-solving, I work on developing innovative software solutions.<br> I am eager to learn, driven, and always looking for ways to further expand my knowledge in IT.<br> Besides my studies, I enjoy taking on new challenges, such as with my hobbies of cooking, gardening, and making music.<br> I play the guitar, but I prefer listening to music over playing it myself.<br> I love to show my best in everything I do.<br> I excel at finding solutions to problems, thanks to my love for puzzles and my experience with IT service-related studies and internships.<br> Additionally, you will hopefully find me at the Friday afternoon drinks.<br> I enjoy a friendly atmosphere at work, and I am definitely not afraid to ask questions or help where needed.<br> <br><strong> This site is built with VUE.js </strong>"
+  },
+  "personal_information": {
+    "title": "Personal Information",
+    "label": {
+      "name": "Name",
+      "birthday": "Date of Birth",
+      "gender": "Gender",
+      "phone_number": "Phone Number",
+      "email": "Email Address"
+    },
+    "address": {
+      "title": "Address",
+      "street_name": "1e Tuindwarsstraat",
+      "number": "5",
+      "postal_code": "1815TH",
+      "city": "Alkmaar"
+    },
+    "first_name": "Micha",
+    "last_name": "Batelaan",
+    "birthday": "08-05-2002",
+    "gender": "Male",
+    "phone_number": "06-37578141",
+    "email": "michabatelaan@gmail.com"
+  },
+  "location": "Location",
+  "position": "Position",
+  "dates": "Dates",
+  "to": "to",
+  "course": "Course",
+  "studies": "Studies",
+  "workExperience": "Work Experience",
+  "internship": "Internships",
+  "skills": "Skills",
+  "language": "Languages",
+  "toggleLanguage": "Switch to Dutch"
 }

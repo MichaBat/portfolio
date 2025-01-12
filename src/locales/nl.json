@@ -14,9 +14,9 @@
   },
   "aboutMe": {
     "heading": "Over mij",
-    "description": "Mijn naam is Micha Batelaan, en ik ben een enthousiaste student Software Engineering aan de Hogeschool van Amsterdam. \n Met een passie voor technologie en probleemoplossing, werk ik aan het ontwikkelen van innovatieve software-oplossingen. Ik ben leergierig, gedreven en altijd op zoek naar manieren om mijn kennis in IT verder uit te breiden.\n\nNaast mijn studie houd ik ervan om nieuwe uitdagingen aan te gaan, zoals met mijn hobby’s van koken, tuinieren, en muziek maken. Ik speel de gitaar maar ik luister liever naar muziek dan dat ik het zelf maak. Ik houd er erg van om het beste van mij te laten zien in de dingen die ik doe.\nIk ben erg strek in oplossingen voor problemen vinden, ik heb dit te danken aan mijn liefde voor puzzelen en mijn ervaringen met IT-service gerelateerde opleidingen en stages binnen IT.\nHiernaast zal je mij hopelijk vinden op de vrijdag borrel. Ik houd wel van wat gezelligheid op de werkvloer, ik ben zeker niet bang om vragen te stellen en te helpen waar nodig."
-  },
-  "personal_information": {
+  "description": "Mijn naam is Micha Batelaan, en ik ben een enthousiaste student Software Engineering aan de Hogeschool van Amsterdam.<br> Met een passie voor technologie en probleemoplossing, werk ik aan het ontwikkelen van innovatieve software-oplossingen.<br> Ik ben leergierig, gedreven en altijd op zoek naar manieren om mijn kennis in IT verder uit te breiden.<br> Naast mijn studie houd ik ervan om nieuwe uitdagingen aan te gaan, zoals met mijn hobby’s van koken, tuinieren, en muziek maken.<br> Ik speel de gitaar maar ik luister liever naar muziek dan dat ik het zelf maak.<br> Ik houd er erg van om het beste van mij te laten zien in de dingen die ik doe.<br> Ik ben erg strek in oplossingen voor problemen vinden, ik heb dit te danken aan mijn liefde voor puzzelen en mijn ervaringen met IT-service gerelateerde opleidingen en stages binnen IT.<br> Hiernaast zal je mij hopelijk vinden op de vrijdag borrel.<br> Ik houd wel van wat gezelligheid op de werkvloer, ik ben zeker niet bang om vragen te stellen en te helpen waar nodig.<br> <br><strong> Deze site is gemaakt met VUE.js </strong>"
+},
+"personal_information": {
     "title": "Persoonlijke Informatie",
     "label": {
       "name": "Naam",
@@ -48,5 +48,6 @@
   "workExperience": "Werkervaring",
   "internship": "Stages",
   "skills": "Vaardigheden",
-  "language" : "Talen"
+  "language": "Talen",
+  "toggleLanguage": "Overschakelen naar Engels"
 }
