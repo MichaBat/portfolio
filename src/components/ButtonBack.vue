@@ -23,7 +23,7 @@
         </g>
       </g>
     </svg>
-    <span>Terug</span>
+    <span> {{ $t('back') }} </span>
   </div>
 </template>
 
